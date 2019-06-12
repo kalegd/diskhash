@@ -87,7 +87,7 @@ static PyMethodDef htMethods[] = {
 		    "Parameters\n"
 		    "----------\n"
 		    "\n"
-		    "c: int\n"
+		    "c: long\n"
 		    "    Desired capacity\n"
 		    "\n"
 		    "Returns\n"
