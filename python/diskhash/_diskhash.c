@@ -30,7 +30,7 @@ PyObject* htLookup(htObject* self, PyObject* args) {
 
 PyObject* htReserve(htObject* self, PyObject* args) {
     int cap;
-    if (!PyArg_ParseTuple(args, "i", &cap)) {
+    if (!PyArg_ParseTuple(args, "l", &cap)) {
         return NULL;
     }
     char* err;
